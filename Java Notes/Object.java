@@ -1,6 +1,6 @@
 /********** Object Sınıfı **********/
 ///https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html
-getClass(): Object
+getClass(): Class
 hashCode(): int
 equals(Object): boolean
 toString(): String
