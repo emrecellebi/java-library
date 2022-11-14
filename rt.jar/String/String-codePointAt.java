@@ -7,6 +7,6 @@ public class Test
 		String str = "Kleofia McCormick";
 		
 		/// Belirtilen dizindeki karakteri (Unicode) döndürür.
-		System.out.println("Unicode: " + str.codePointAt(0)); 
+		System.out.println("codePointAt: " + str.codePointAt(0)); 
 	}
 }

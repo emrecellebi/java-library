@@ -6,7 +6,7 @@ public class Test
 	{
 		String str = "Kleofia McCormick";
 		
-		/// Boşsa ise true döndürür.
+		/// Boş ise true döndürür.
 		System.out.println("Is Empty: " + str.isEmpty());
 	}
 } 

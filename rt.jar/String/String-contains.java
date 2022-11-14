@@ -6,7 +6,7 @@ public class Test
 	{
 		String str = "Kleofia McCormick";
 		
-		/// Yanlızca bu dize belirtilen char değerleri dizisini içeriyorsa true döndürür
+		/// Yanlızca bu dize belirtilen değerleri dizisini içeriyorsa true döndürür
 		System.out.println("Contains: " + str.contains("Kleofia"));
 	}
 }

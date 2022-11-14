@@ -7,6 +7,6 @@ public class Test
 		String str = "Kleofia McCormick";
 
 		/// İki dizeyi sözlük tabanlı Büyük Küçük Harfe Duyarlı olarak karşılaştırır.
-		System.out.println("Compare Ignore Case: " + str.compareToIgnoreCase("Kleofia McCormick"));
+		System.out.println("compareToIgnoreCase: " + str.compareToIgnoreCase("Kleofia McCormick"));
 	}
 }

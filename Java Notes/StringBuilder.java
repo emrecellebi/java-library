@@ -1,6 +1,6 @@
 /********** StringBuilder Sınıfı **********/
-final extends AbstractStringBuilder implements Serializable, CharSequence
 /// https://docs.oracle.com/javase/8/docs/api/java/lang/StringBuilder.html
+final extends AbstractStringBuilder implements Serializable, CharSequence
 serialVersionUID: long static protected
 StringBuilder()
 StringBuilder(CharSequence)

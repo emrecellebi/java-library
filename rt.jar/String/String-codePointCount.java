@@ -7,6 +7,6 @@ public class Test
 		String str = "Kleofia McCormick";
 		
 		/// Bu Dizenin belirtilen metin aralığındaki Unicode kod noktalarının sayısını döndürür
-		System.out.println("Unicode: " + str.codePointCount(0, 5)); 
+		System.out.println("codePointCount: " + str.codePointCount(0, 5)); 
 	}
 }

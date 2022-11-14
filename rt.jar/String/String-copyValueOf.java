@@ -9,7 +9,7 @@ public class Test
 		/// Belirtilen dizideki karakter dizisini temsil eden bir Dize döndürür.
 		System.out.println("Copy Value Of: " + String.copyValueOf(data));
 		
-		/// Prametre Bir Data, Offset, Length
+		/// Prameters: data, offset, length
 		System.out.println("Copy Value Of: " + String.copyValueOf(data, 0, 3));
 	}
 }

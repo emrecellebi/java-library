@@ -1,7 +1,6 @@
 /********** String Sınıfı **********/
-final extends Object implements Serializable, Comparable<String>, CharSequence
 ///https://docs.oracle.com/javase/8/docs/api/java/lang/String.html
-class CaseInsensitiveComparator
+final extends Object implements Serializable, Comparable<String>, CharSequence
 CASE_INSENSITIVE_ORDER: Comparator static final
 String();
 String(String);
@@ -91,3 +90,6 @@ valueOf(double): String static
 valueOf(float): String static
 valueOf(int): String static
 valueOf(long): String static
+
+private class CaseInsensitiveComparator implements Serializable, Comparable<String>
+compare(String, String): int

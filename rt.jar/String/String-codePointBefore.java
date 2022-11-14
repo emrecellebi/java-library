@@ -7,6 +7,6 @@ public class Test
 		String str = "Kleofia McCormick";
 		
 		/// Belirtilen dizinden önceki karakteri (Unicode) döndürür
-		System.out.println("Before Unicode: " + str.codePointBefore(1)); 
+		System.out.println("codePointBefore: " + str.codePointBefore(1)); 
 	}
 }

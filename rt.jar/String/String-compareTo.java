@@ -7,6 +7,6 @@ public class Test
 		String str = "Kleofia McCormick";
 		
 		/// İki dizeyi sözlük tabanlı olarak karşılaştırır.
-		System.out.println("Compare: " + str.compareTo("Kleofia McCormick")); 
+		System.out.println("compareTo: " + str.compareTo("Kleofia McCormick")); 
 	}
 }
