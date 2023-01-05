@@ -48,7 +48,9 @@ public class Console
 		String str12 = new String(new StringBuilder("Kleofia McCormick"));
 		System.out.println("String: " + str12);
 		
-		// String(StringBuffer);
+		String str13 = new String(new StringBuffer("Kleofia McCormick"));
+		System.out.println("String: " + str13);
+		
 		// String(byte[], Charset);
 		// String(byte[], int, int, Charset);
 		// String(char[], boolean); protected

@@ -7,7 +7,7 @@ public class Test
 		/// Belirtilen anahtar tarafından belirtilen java sistem özelliğini alır.
 		System.out.println(System.getProperty("user.name"));
 		
-		/// Değişkeni ve değeri belirtilir.
+		/// Değişken btanımlı değil ise verilen ön tanımlı değeri atama yapar
 		System.out.println(System.getProperty("user.name", "Asus"));
 	}
 }

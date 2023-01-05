@@ -1,6 +1,6 @@
 /********** StringBuffer Sınıfı **********/
-final extends AbstractStringBuilder implements Serializable, CharSequence
 ///https://docs.oracle.com/javase/8/docs/api/java/lang/StringBuffer.html
+final extends AbstractStringBuilder implements Serializable, CharSequence
 StringBuffer()
 StringBuffer(CharSequence)
 StringBuffer(String)
@@ -55,3 +55,4 @@ subSequence(int, int): CharSequence
 substring(int): String
 substring(int, int): String
 toString(): String
+trimToSize(): void

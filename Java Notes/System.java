@@ -1,6 +1,6 @@
 /********** System Sınıfı **********/
-final /// Bir sınıf türü
 /// https://docs.oracle.com/javase/8/docs/api/java/lang/System.html
+public final class System
 err: PrintStream static
 in: InputStream static
 out: PrintStream static
@@ -16,7 +16,7 @@ getSecurityManager(): SecurityManager static
 getenv(): Map static
 getenv(String): String static
 identityHashCode(Object): int static native
-inheritedChannel(): Channel
+inheritedChannel(): Channel throws IOException
 lineSeparator(): String static
 load(String): void static
 loadLibrary(String): void static
