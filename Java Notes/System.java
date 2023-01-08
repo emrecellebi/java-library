@@ -21,7 +21,7 @@ lineSeparator(): String static
 load(String): void static
 loadLibrary(String): void static
 mapLibraryName(String): String static native
-nanoTime(): long static native
+nanoTime(): long static native								/// Çalışan Java Sanal Makinesi'nin yüksek çözünürlüklü zaman kaynağının geçerli değerini nanosaniye cinsinden döndürür.
 setProperty(String, String): String static
 runFinalization(): void static
 runFinalizersOnExit(boolean): void static
