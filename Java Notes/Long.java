@@ -1,3 +1,4 @@
+// https://docs.oracle.com/javase/8/docs/api/java/lang/Long.html
 /** public final class Long extends Number implements Comparable<Long> **/
 BYTES: int static							/// Byte boyutu
 MAX_VALUE: long static						/// Maximum long boyutu
